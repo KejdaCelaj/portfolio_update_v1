@@ -1,0 +1,28 @@
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#description {
+    line-height: 2em;
+}
+
+.about {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-top: 2em;
+    padding-bottom: 4em;
+    background-color: papayawhip;
+}
+
+.experience {
+    width: 50%;
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
